@@ -89,7 +89,7 @@ Experience
       <div class="experience-info">
           <strong>South China University of Technology</strong><br>
           <em>2021.09 - Present</em><br>
-          B.E. Candidate<br>
+          M.Sc. Candidate<br>
           <span style="color:#888;">National Scholarship recipient. Multiple top-tier programming-contest awards (ICPC, CCPC, CCCC).</span>
       </div>
   </div>
