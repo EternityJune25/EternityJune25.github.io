@@ -1,24 +1,24 @@
 locale                   : "en-US"
-title                    : "WowPage"
+title                    : "Juyuan Wang"
 title_separator          : "-"
-name                     : "Your Name"
-description              : &description "A clean academic homepage template."
+name                     : "Juyuan Wang"
+description              : &description "Personal homepage of Juyuan Wang (王聚源)."
 url                      : ""
 baseurl                  : ""
 repository               : ""
 
 author:
-  avatar           : "1.png"
-  name             : "Your Name"
+  avatar           : "avatar.jpg"
+  name             : "Juyuan Wang"
   pronouns         :
-  bio              : "Student and researcher."
-  location         : "City, Country"
-  employer         : "Institution or Company"
+  bio              : "B.E. student at South China University of Technology. Working on LLMs, RAG, and Agents."
+  location         : "Guangzhou, China"
+  employer         : "South China University of Technology"
   uri              :
-  email            : "name@example.com"
+  email            :
 
   arxiv            :
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?user=21p1dyUAAAAJ&hl=zh-CN"
   impactstory      :
   orcid            :
   semantic         :
