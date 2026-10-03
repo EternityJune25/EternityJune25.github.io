@@ -32,17 +32,19 @@
   {
     "title": "When & How to Write for Personalized Demand-aware Query Rewriting in Video Search",
     "authors": "Cheng Cheng, Chenxing Wang, Aolin Li, Haijun Wu, Huiyun Hu, Juyuan Wang, Dongliang Liao",
-    "venue": "SIGIR 2026 · Poster",
+    "venue": "SIGIR 2026 · Accepted · Poster",
     "year": 2026,
     "pages": "4528-4533",
     "publication": "Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval",
     "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=21p1dyUAAAAJ&pagesize=100&citation_for_view=21p1dyUAAAAJ:ULOm3_A8WrAC",
     "arxiv": null,
     "code": null,
-    "image": null,
+    "image": "wewrite.png",
     "summary": "In video search systems, user historical behaviors provide rich context for identifying search intent and resolving ambiguity. However, traditional methods utilizing implicit history features often suffer from signal dilution and delayed feedback. To address these challenges, we propose WeWrite, a novel Personalized Demand-aware Query Rewriting framework. Specifically, WeWrite tackles three key challenges: (1) When to Write: An automated posterior-based mining strategy extracts high-quality samples from user logs, identifying scenarios where personalization is strictly necessary; (2) How to Write: A hybrid training paradigm combines Supervised Fine-Tuning (SFT) with Group Relative Policy Optimization (GRPO) to align the LLM's output style with the retrieval system; (3) Deployment: A parallel ''Lightweight Recall'' architecture ensures low latency. Extensive offline experiments demonstrate that WeWrite",
     "source": "Google Scholar",
-    "source_checked": "2026-10-04"
+    "source_checked": "2026-10-04",
+    "acceptance_status": "accepted",
+    "status_source": "Author confirmation on 2026-10-04"
   },
   {
     "title": "A Multi-task Learning and Transfer Learning-based Model for Crop Leaf Disease Identification",
@@ -92,17 +94,19 @@
   {
     "title": "PonsRAG: A Pons-Inspired RAG Bridging Cognitive Islands for Coordinated Long Narrative Reasoning",
     "authors": "Rongchen Zhao, Yu Chen, Juyuan Wang, Zhouting Mo, Jianxing Yu, Wenqing Chen, Jingping Liu",
-    "venue": "arXiv 2026 · EMNLP 2026 Poster",
+    "venue": "EMNLP 2026 · Accepted · Poster",
     "year": 2026,
     "pages": null,
     "publication": "arXiv preprint arXiv:2608.25486",
     "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=21p1dyUAAAAJ&pagesize=100&citation_for_view=21p1dyUAAAAJ:YOwf2qJgpHMC",
     "arxiv": "https://arxiv.org/abs/2608.25486",
     "code": null,
-    "image": null,
+    "image": "ponsrag.png",
     "summary": "Long Narrative Reasoning is an essential capability for processing and reasoning over complex narratives. While retrieval-augmented generation provides a promising framework, existing methods still face two critical challenges: cognitive islanding and cross-layer evidence disconnection. To address these issues, we propose PonsRAG, a coordinated RAG framework inspired by the biological pons. PonsRAG consists of two key components: Triple-Layer Indexing, which organizes documents into a connected knowledge structure to bridge cognitive islands, and Coordinated Reasoning, which retrieves evidence across distinct layers and integrates cross-layer information into a unified context. We evaluate PonsRAG on four long-context narrative benchmarks, and experimental results show that it outperforms the strongest baseline, achieving a 11.56% relative improvement in average accuracy on multi-choice tasks.",
     "source": "Google Scholar",
-    "source_checked": "2026-10-04"
+    "source_checked": "2026-10-04",
+    "acceptance_status": "accepted",
+    "status_source": "Author confirmation on 2026-10-04"
   },
   {
     "title": "WeSEAL: Well-calibrated Search for Eliminating Attention-sink Leakage",

@@ -27,6 +27,17 @@ class HomepageTests(unittest.TestCase):
   self.assertIn('2024.09 - Present',self.text)
   self.assertEqual(len(self.html.select('#full-publications li')),9)
   self.assertTrue(self.html.select_one('#full-publications').has_attr('hidden'))
+ def test_updated_papers_and_logos(self):
+  papers=json.loads((ROOT/"_data/publications.json").read_text())
+  self.assertEqual(len(self.html.select(".updated-publication")),6)
+  for title,venue,image in [("PonsRAG","EMNLP 2026","ponsrag.png"),("When & How","SIGIR 2026","wewrite.png")]:
+   p=next(p for p in papers if p["title"].startswith(title))
+   self.assertIn(venue,p["venue"]); self.assertIn("Accepted",p["venue"])
+   self.assertEqual(p["image"],image); self.assertTrue((ROOT/"images"/image).is_file())
+  logos=self.html.select(".experience-logo")
+  self.assertEqual(logos[0]["src"],"/images/logos/wechat-search.png")
+  self.assertEqual(logos[2]["src"],"/images/logos/wechat-prc.png")
+  for logo in logos:self.assertTrue((ROOT/logo["src"].lstrip("/")).is_file())
  def test_navigation(self):
   self.assertIn('/#moments',(ROOT/'_data/navigation.yml').read_text())
   for file in ['assets/css/home.css','assets/js/show_publications.js']:self.assertTrue((ROOT/file).is_file())
