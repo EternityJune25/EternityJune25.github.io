@@ -10,8 +10,8 @@ main:
   - title: "Pub"
     url: "/#publications"
 
-  - title: "Project"
-    url: "/#projects"
+  - title: "Moments"
+    url: "/#moments"
 
   - title: "Awards"
     url: "/#awards"
@@ -22,8 +22,8 @@ main:
   - title: "Talks"
     url: "/#talks"
     
-  - title: "CV-En"
-    url: "/files/juyuanwang_resume.pdf"
+  - title: "Scholar"
+    url: "https://scholar.google.com/citations?user=21p1dyUAAAAJ&hl=zh-CN"
 
   # - title: "CV-Cn"
   #   url: "/files/chinese_resume.pdf"
