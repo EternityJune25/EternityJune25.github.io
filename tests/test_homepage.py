@@ -16,7 +16,7 @@ class HomepageTests(unittest.TestCase):
   self.assertIsNone(weseal['code'])
  def test_gallery(self):
   self.assertEqual(len(self.html.select('.moment-group')),3)
-  photos=self.html.select('.moment-grid img');self.assertEqual(len(photos),7)
+  photos=self.html.select('.moment-grid img');self.assertEqual(len(photos),9)
   for photo in photos:
    self.assertTrue((ROOT/photo['src'].lstrip('/')).is_file())
    self.assertTrue(photo['alt']); self.assertEqual(photo['loading'],'lazy')
@@ -38,6 +38,17 @@ class HomepageTests(unittest.TestCase):
   self.assertEqual(logos[0]["src"],"/images/logos/wechat-search.png")
   self.assertEqual(logos[2]["src"],"/images/logos/wechat-prc.png")
   for logo in logos:self.assertTrue((ROOT/logo["src"].lstrip("/")).is_file())
+ def test_timeline_services_and_xjtu(self):
+  events=json.loads((ROOT/'_data/news.json').read_text())
+  dates=[e['date'] for e in events]
+  self.assertEqual(dates,sorted(dates,reverse=True))
+  self.assertEqual(len(self.html.select('.news-list li')),len(events))
+  for e in events:self.assertIn(e['body_html'],self.text)
+  for venue in ['AAAI','ACM MM','SIGIR','EMNLP','CVPR','ICLR','WWW','KDD','ARR','ISCTIS','ICIHCS']:self.assertIn(venue,self.text)
+  self.assertIn('2023 - 2024',self.text)
+  self.assertTrue((ROOT/'images/logos/xjtu.png').is_file())
+  aaai=self.html.select('.moment-group')[1]
+  self.assertEqual(len(aaai.select('figure')),3)
  def test_navigation(self):
   self.assertIn('/#moments',(ROOT/'_data/navigation.yml').read_text())
   for file in ['assets/css/home.css','assets/js/show_publications.js']:self.assertTrue((ROOT/file).is_file())

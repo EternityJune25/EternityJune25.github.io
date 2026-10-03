@@ -11,7 +11,7 @@ redirect_from:
 
 I am an M.Sc. student at <a href="https://www.scut.edu.cn/">South China University of Technology (SCUT)</a>. My research interests focus on **Large Language Models (LLMs)**, **Retrieval-Augmented Generation (RAG)**, **Agents**, and **Information Retrieval**.
 
-I am currently a research intern at **Tencent WXG (Search Application Department)**. Previously I worked at **Tencent WeChat AI (Pattern Recognition Center)**, **Weavin.ai**, and **China Southern Power Grid**.
+I am currently a research intern at **Tencent WXG (Search Application Department)**. Previously I worked at **Tencent WeChat AI (Pattern Recognition Center)**, **Weavin.ai**, **China Southern Power Grid**, and **Xi’an Jiaotong University**.
 
 Feel free to reach out via [Google Scholar](https://scholar.google.com/citations?user=21p1dyUAAAAJ&hl=zh-CN) if you are interested in collaboration or potential opportunities.
 
@@ -19,25 +19,20 @@ News
 ---------------
 <div class="news-box">
   <ul class="news-list">
-<li><span class="news-date"><em>2026.08</em></span> <strong>PonsRAG</strong>, accepted at <strong>EMNLP 2026 (Poster)</strong>, is available on <a href="https://arxiv.org/abs/2608.25486">arXiv</a>.</li>
-<li><span class="news-date"><em>2026.01</em></span> Presented <strong>ComoRAG</strong> as a Poster at <strong>AAAI 2026</strong>. <a href="#moments">Photos →</a></li>
-
-<li><span class="news-date"><em>2026.04</em></span> Our paper <strong>HeadRank</strong> is released on <a href="https://arxiv.org/abs/2604.17237">arXiv</a>.</li>
-
-<li><span class="news-date"><em>2026.07</em></span> Represented the <strong>WeChat team</strong> at <strong>SIGIR 2026</strong> in Melbourne, presenting <strong>WeSEAL</strong> in an Oral session. <a href="#moments">Photos →</a></li>
-
-<li><span class="news-date"><em>2025.12</em></span> 🎉 Our paper <strong>CoMoRAG</strong> (cognitive-inspired memory-organized RAG for stateful long narrative reasoning) is accepted by <strong>AAAI 2026</strong>.</li>
-
-<li><span class="news-date"><em>2025.12</em></span> 🚀 I joined <strong>Tencent WXG (Search Application Department)</strong> as an LLM Algorithm Intern.</li>
-
-<li><span class="news-date"><em>2025.09</em></span> 🎉 Our paper <strong>MVISU-Bench</strong> and <strong>HEAR</strong> are accepted by <strong>ACM MM 2025</strong>.</li>
-
-<li><span class="news-date"><em>2025.09</em></span> 🚀 I joined <strong>Weavin.ai</strong> as a RAG Application Intern.</li>
-
-<li><span class="news-date"><em>2025.02</em></span> 🚀 I joined <strong>Tencent WeChat AI (Pattern Recognition Center)</strong> through industry-university cooperation.</li>
-
-<li><span class="news-date"><em>2024.09</em></span> 🚀 I joined <strong>China Southern Power Grid (CSG Smart)</strong> as an Algorithm Intern.</li>
-
+<li data-date="2026.08"><span class="news-date"><em>2026.08</em></span> <strong>PonsRAG</strong> was accepted at <strong>EMNLP 2026 (Poster)</strong>. The <a href="https://arxiv.org/abs/2608.25486">preprint</a> was released on August 26; the <a href="https://2026.emnlp.org/registration/">conference</a> is scheduled for October 24–29 in Budapest.</li>
+<li data-date="2026.07"><span class="news-date"><em>2026.07</em></span> Represented the <strong>WeChat team</strong> at <a href="https://sigir2026.org/">SIGIR 2026</a> in Melbourne (July 20–24), presenting <strong>WeSEAL</strong> in an <strong>Oral</strong> session. <strong>WeWrite</strong> was accepted as a <strong>Poster</strong> at the same conference. <a href="#moments">Photos →</a></li>
+<li data-date="2026.04"><span class="news-date"><em>2026.04</em></span> Released <strong>HeadRank</strong> on <a href="https://arxiv.org/abs/2604.17237">arXiv</a> on April 19. The paper is under submission to <strong>ICLR 2027</strong>.</li>
+<li data-date="2026.01"><span class="news-date"><em>2026.01</em></span> Presented <strong>ComoRAG</strong> as a <strong>Poster</strong> at <a href="https://aaai.org/conference/aaai/aaai-26/">AAAI 2026</a> in Singapore (January 20–27). <a href="#moments">Photos →</a></li>
+<li data-date="2025.12"><span class="news-date"><em>2025.12</em></span> Joined <strong>Tencent WXG — Search Application Department</strong> as an LLM Algorithm Intern.</li>
+<li data-date="2025.11"><span class="news-date"><em>2025.11</em></span> <strong>ComoRAG</strong> was accepted at <strong>AAAI 2026 (Poster)</strong>; the <a href="https://arxiv.org/abs/2508.10419">November arXiv revision</a> records the acceptance.</li>
+<li data-date="2025.10"><span class="news-date"><em>2025.10</em></span> <strong>MVISU-Bench</strong> and <strong>HEAR</strong> appeared at <a href="https://acmmm2025.org/faq/">ACM Multimedia 2025</a> (October 27–31, Dublin), both as <strong>Oral</strong> papers. <a href="https://mvisu-bench.github.io/">MVISU-Bench project →</a></li>
+<li data-date="2025.09"><span class="news-date"><em>2025.09</em></span> Joined <strong>Weavin.ai</strong> as a RAG Application Development Intern (September–November 2025).</li>
+<li data-date="2025.08"><span class="news-date"><em>2025.08</em></span> Released <strong>ComoRAG</strong> on <a href="https://arxiv.org/abs/2508.10419">arXiv</a> on August 14; the <a href="https://github.com/EternityJune25/ComoRAG">code</a> is publicly available.</li>
+<li data-date="2025.02"><span class="news-date"><em>2025.02</em></span> Joined <strong>Tencent WXG — Pattern Recognition Center (WeChat AI)</strong> through industry-university cooperation (February–August 2025).</li>
+<li data-date="2024.09"><span class="news-date"><em>2024.09</em></span> Started my <strong>M.Sc. at South China University of Technology</strong> and joined <strong>China Southern Power Grid — CSG Smart Technology</strong> as an Algorithm Intern (September–December 2024).</li>
+<li data-date="2024"><span class="news-date"><em>2024</em></span> Co-authored <strong>TL-DREN: Transfer Learning Based Detection and Recognition of Electricity Nameplates</strong> (<strong>ICIHCS 2024</strong>).</li>
+<li data-date="2023"><span class="news-date"><em>2023</em></span> Started a <strong>Research Internship at Xi’an Jiaotong University</strong> (2023–2024).</li>
+<li data-date="2023"><span class="news-date"><em>2023</em></span> Published <strong>A Multi-task Learning and Transfer Learning-based Model for Crop Leaf Disease Identification</strong> at <strong>ISCTIS 2023</strong>.</li>
   </ul>
 </div>
 
@@ -83,6 +78,15 @@ Experience
           <em>2024.09 - 2024.12</em><br>
           Algorithm Intern<br>
           <span style="color:#888;">Computer vision and transfer learning for power-grid asset recognition.</span>
+      </div>
+  </div>
+
+  <div class="experience-card">
+      <img src="/images/logos/xjtu.png" alt="Xi’an Jiaotong University official emblem" class="experience-logo">
+      <div class="experience-info">
+          <strong>Xi’an Jiaotong University</strong><br>
+          <em>2023 - 2024</em><br>
+          Research Intern
       </div>
   </div>
 
@@ -138,17 +142,18 @@ Awards
 
 Services
 --------
-- Reviewer / volunteer for academic events in LLM, RAG, and IR communities.
+- **Conference Reviewer:** AAAI, ACM Multimedia (ACM MM), SIGIR, EMNLP, CVPR, ICLR, The Web Conference (WWW), KDD, ISCTIS, and ICIHCS.
+- **ACL Rolling Review (ARR) Reviewer:** reviewing NLP submissions through the shared ARR process used by ACL-family conferences, including ACL, NAACL, EACL, and EMNLP.
 
 
 Talks
 --------
-- **SIGIR 2026 · Melbourne, Australia** — Oral presentation of *WeSEAL: Well-calibrated Search for Eliminating Attention-sink Leakage*, representing the WeChat team alongside Chenxing Wang.
-- **AAAI 2026 · Singapore** — Poster presentation and discussion of *ComoRAG: A Cognitive-Inspired Memory-Organized RAG for Stateful Long Narrative Reasoning*.
+- **SIGIR 2026 · July 20–24 · Melbourne, Australia** — Oral presentation of *WeSEAL: Well-calibrated Search for Eliminating Attention-sink Leakage*, representing the WeChat team alongside Chenxing Wang.
+- **AAAI 2026 · January 20–27 · Singapore** — Poster presentation and discussion of *ComoRAG: A Cognitive-Inspired Memory-Organized RAG for Stateful Long Narrative Reasoning*.
 
 
 <h2 id="moments">Conference &amp; Life Moments</h2>
 <p class="publication-source">Academic milestones and moments beyond the lab. Select a photo to view the full image.</p>
 <section class="moment-group"><h3>SIGIR 2026 · Melbourne</h3><p>Representing the WeChat team on the SIGIR main stage, followed by moments from the Melbourne trip.</p><div class="moment-grid"><figure><a href="/images/moments/sigir-oral.jpg" target="_blank" rel="noopener"><img src="/images/moments/sigir-oral.jpg" alt="WeSEAL Oral presentation · SIGIR 2026 main stage" loading="lazy" decoding="async"></a><figcaption>WeSEAL Oral presentation · SIGIR 2026 main stage</figcaption></figure><figure><a href="/images/moments/melbourne-market.jpg" target="_blank" rel="noopener"><img src="/images/moments/melbourne-market.jpg" alt="Melbourne trip · evening market" loading="lazy" decoding="async"></a><figcaption>Melbourne trip · evening market</figcaption></figure><figure><a href="/images/moments/melbourne-wildlife.jpg" target="_blank" rel="noopener"><img src="/images/moments/melbourne-wildlife.jpg" alt="Melbourne trip · Australian wildlife" loading="lazy" decoding="async"></a><figcaption>Melbourne trip · Australian wildlife</figcaption></figure></div></section>
-<section class="moment-group"><h3>AAAI 2026 · Poster</h3><p>Sharing ComoRAG and discussing stateful long-narrative reasoning with the research community.</p><div class="moment-grid single"><figure><a href="/images/moments/aaai-poster.jpg" target="_blank" rel="noopener"><img src="/images/moments/aaai-poster.jpg" alt="ComoRAG Poster presentation · AAAI 2026" loading="lazy" decoding="async"></a><figcaption>ComoRAG Poster presentation · AAAI 2026</figcaption></figure></div></section>
+<section class="moment-group"><h3>AAAI 2026 · Singapore</h3><p>ComoRAG Poster presentation at AAAI 2026, alongside memories of local food and Jewel Changi Airport from the Singapore trip.</p><div class="moment-grid"><figure><a href="/images/moments/aaai-poster.jpg" target="_blank" rel="noopener"><img src="/images/moments/aaai-poster.jpg" alt="ComoRAG Poster presentation · AAAI 2026" loading="lazy" decoding="async"></a><figcaption>ComoRAG Poster presentation · AAAI 2026</figcaption></figure><figure><a href="/images/moments/aaai-singapore-food.jpg" target="_blank" rel="noopener"><img src="/images/moments/aaai-singapore-food.jpg" alt="Singapore trip · Hokkien mee" loading="lazy" decoding="async"></a><figcaption>Singapore trip · Hokkien mee</figcaption></figure><figure><a href="/images/moments/aaai-singapore-jewel.jpg" target="_blank" rel="noopener"><img src="/images/moments/aaai-singapore-jewel.jpg" alt="Singapore trip · Jewel Changi Rain Vortex" loading="lazy" decoding="async"></a><figcaption>Singapore trip · Jewel Changi Rain Vortex</figcaption></figure></div></section>
 <section class="moment-group"><h3>Tencent Qingyun · Starlit Tech Gala</h3><p>Memories from the Tencent Qingyun closed-door evening event.</p><div class="moment-grid"><figure><a href="/images/moments/qingyun-night.jpg" target="_blank" rel="noopener"><img src="/images/moments/qingyun-night.jpg" alt="Starlit Tech Gala · city lights" loading="lazy" decoding="async"></a><figcaption>Starlit Tech Gala · city lights</figcaption></figure><figure><a href="/images/moments/qingyun-penguin.jpg" target="_blank" rel="noopener"><img src="/images/moments/qingyun-penguin.jpg" alt="Tencent penguin · evening venue" loading="lazy" decoding="async"></a><figcaption>Tencent penguin · evening venue</figcaption></figure><figure><a href="/images/moments/qingyun-gathering.jpg" target="_blank" rel="noopener"><img src="/images/moments/qingyun-gathering.jpg" alt="Tencent Qingyun · gathering and conversations" loading="lazy" decoding="async"></a><figcaption>Tencent Qingyun · gathering and conversations</figcaption></figure></div></section>
