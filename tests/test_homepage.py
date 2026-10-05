@@ -61,6 +61,14 @@ class HomepageTests(unittest.TestCase):
   self.assertIn('ACM MM 2025',group.h3.get_text())
   self.assertEqual(len(group.select('figure')),3)
   self.assertTrue(group.select_one('img')['src'].endswith('acmmm-dublin-conference.jpg'))
+ def test_personal_favicon(self):
+  head=BeautifulSoup((ROOT/'_includes/head/custom.html').read_text(),'html.parser')
+  self.assertIn('personal-logo.png?v=20261006',head.select_one('link[rel="icon"]')['href'])
+  self.assertEqual(head.select_one('link[rel="icon"]')['type'],'image/png')
+  self.assertIsNone(head.select_one('link[rel="mask-icon"]'))
+  manifest=json.loads((ROOT/'images/manifest.json').read_text())
+  self.assertEqual(manifest['name'],'Juyuan Wang')
+  self.assertTrue((ROOT/'images'/manifest['icons'][0]['src'].split('?')[0]).is_file())
  def test_navigation(self):
   self.assertIn('/#moments',(ROOT/'_data/navigation.yml').read_text())
   for file in ['assets/css/home.css','assets/js/show_publications.js']:self.assertTrue((ROOT/file).is_file())
