@@ -15,8 +15,8 @@ class HomepageTests(unittest.TestCase):
   self.assertTrue(weseal['authors'].startswith('Juyuan Wang, Chenxing Wang'))
   self.assertIsNone(weseal['code'])
  def test_gallery(self):
-  self.assertEqual(len(self.html.select('.moment-group')),3)
-  photos=self.html.select('.moment-grid img');self.assertEqual(len(photos),9)
+  self.assertEqual(len(self.html.select('.moment-group')),4)
+  photos=self.html.select('.moment-grid img');self.assertEqual(len(photos),12)
   for photo in photos:
    self.assertTrue((ROOT/photo['src'].lstrip('/')).is_file())
    self.assertTrue(photo['alt']); self.assertEqual(photo['loading'],'lazy')
@@ -49,6 +49,18 @@ class HomepageTests(unittest.TestCase):
   self.assertTrue((ROOT/'images/logos/xjtu.png').is_file())
   aaai=self.html.select('.moment-group')[1]
   self.assertEqual(len(aaai.select('figure')),3)
+ def test_enriched_experience_and_acmmm(self):
+  cards=self.html.select('.experience-card')
+  self.assertEqual(len(cards),6)
+  for card in cards:self.assertTrue(card.select_one('.experience-info span'))
+  self.assertIn('vLLM/FlashAttention',cards[0].get_text())
+  self.assertIn('Agent harness',cards[1].get_text())
+  self.assertIn('LoRA',cards[2].get_text())
+  self.assertEqual(cards[4].select_one('a')['href'],'https://www.ai4bread.com/')
+  group=self.html.select('.moment-group')[2]
+  self.assertIn('ACM MM 2025',group.h3.get_text())
+  self.assertEqual(len(group.select('figure')),3)
+  self.assertTrue(group.select_one('img')['src'].endswith('acmmm-dublin-conference.jpg'))
  def test_navigation(self):
   self.assertIn('/#moments',(ROOT/'_data/navigation.yml').read_text())
   for file in ['assets/css/home.css','assets/js/show_publications.js']:self.assertTrue((ROOT/file).is_file())

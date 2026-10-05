@@ -25,7 +25,7 @@ News
 <li data-date="2026.01"><span class="news-date"><em>2026.01</em></span> Presented <strong>ComoRAG</strong> as a <strong>Poster</strong> at <a href="https://aaai.org/conference/aaai/aaai-26/">AAAI 2026</a> in Singapore (January 20–27). <a href="#moments">Photos →</a></li>
 <li data-date="2025.12"><span class="news-date"><em>2025.12</em></span> Joined <strong>Tencent WXG — Search Application Department</strong> as an LLM Algorithm Intern.</li>
 <li data-date="2025.11"><span class="news-date"><em>2025.11</em></span> <strong>ComoRAG</strong> was accepted at <strong>AAAI 2026 (Poster)</strong>; the <a href="https://arxiv.org/abs/2508.10419">November arXiv revision</a> records the acceptance.</li>
-<li data-date="2025.10"><span class="news-date"><em>2025.10</em></span> <strong>MVISU-Bench</strong> and <strong>HEAR</strong> appeared at <a href="https://acmmm2025.org/faq/">ACM Multimedia 2025</a> (October 27–31, Dublin), both as <strong>Oral</strong> papers. <a href="https://mvisu-bench.github.io/">MVISU-Bench project →</a></li>
+<li data-date="2025.10"><span class="news-date"><em>2025.10</em></span> <strong>MVISU-Bench</strong> and <strong>HEAR</strong> appeared at <a href="https://acmmm2025.org/faq/">ACM Multimedia 2025</a> (October 27–31, Dublin), both as <strong>Oral</strong> papers. <a href="https://mvisu-bench.github.io/">MVISU-Bench project →</a> I attended the conference in Dublin. <a href="#moments">Ireland photos →</a></li>
 <li data-date="2025.09"><span class="news-date"><em>2025.09</em></span> Joined <strong>Weavin.ai</strong> as a RAG Application Development Intern (September–November 2025).</li>
 <li data-date="2025.08"><span class="news-date"><em>2025.08</em></span> Released <strong>ComoRAG</strong> on <a href="https://arxiv.org/abs/2508.10419">arXiv</a> on August 14; the <a href="https://github.com/EternityJune25/ComoRAG">code</a> is publicly available.</li>
 <li data-date="2025.02"><span class="news-date"><em>2025.02</em></span> Joined <strong>Tencent WXG — Pattern Recognition Center (WeChat AI)</strong> through industry-university cooperation (February–August 2025).</li>
@@ -47,7 +47,7 @@ Experience
           <strong>Tencent — WXG, Search Application Department</strong><br>
           <em>2025.12 - Present</em><br>
           LLM Algorithm Intern<br>
-          <span style="color:#888;">Working on LLM-based search, retrieval, and reasoning.</span>
+          <span style="color:#888;"><strong>LLM ranking &amp; search infrastructure.</strong> Developed decoding-free Attention reranking with SFT/DPO and vLLM/FlashAttention inference optimization; built personalized query rewriting with Qwen3-4B, SFT/GRPO and verl–Megatron–vLLM training. Delivered multi-agent relevance annotation, automated GSB evaluation, and CTR/CVR fusion and online ranking strategies.</span>
       </div>
   </div>
 
@@ -57,7 +57,7 @@ Experience
           <strong>Weavin.ai (智核未来)</strong><br>
           <em>2025.09 - 2025.11</em><br>
           RAG Application Development Intern<br>
-          <span style="color:#888;">Building production-grade Retrieval-Augmented Generation systems for an AI startup.</span>
+          <span style="color:#888;"><strong>Agent harness &amp; RAG engineering.</strong> Designed a pluggable multi-agent harness for retrieval, table extraction, fact checking and summarization; supported DAG-based orchestration, multi-turn decisions, web/database tools and user-memory construction.</span>
       </div>
   </div>
 
@@ -67,7 +67,7 @@ Experience
           <strong>Tencent — WXG, Pattern Recognition Center (WeChat AI)</strong><br>
           <em>2025.02 - 2025.08</em><br>
           Industry-University Cooperation Researcher<br>
-          <span style="color:#888;">Research on multimodal agents, document understanding, and information extraction.</span>
+          <span style="color:#888;"><strong>Multimodal agents &amp; document intelligence.</strong> Developed Qwen2.5-VL LoRA-based risk screening, intent clarification and interactive agent modules; contributed to MVISU-Bench and HEAR, both ACM MM 2025 Oral papers.</span>
       </div>
   </div>
 
@@ -77,7 +77,7 @@ Experience
           <strong>China Southern Power Grid — CSG Smart Technology</strong><br>
           <em>2024.09 - 2024.12</em><br>
           Algorithm Intern<br>
-          <span style="color:#888;">Computer vision and transfer learning for power-grid asset recognition.</span>
+          <span style="color:#888;"><strong>Applied computer vision for power-grid assets.</strong> Worked on electricity-nameplate detection and recognition using transfer learning, connecting data preparation, model experimentation and evaluation for domain-specific visual recognition.</span>
       </div>
   </div>
 
@@ -86,7 +86,8 @@ Experience
       <div class="experience-info">
           <strong>Xi’an Jiaotong University</strong><br>
           <em>2023 - 2024</em><br>
-          Research Intern
+          Research Intern<br>
+          <span style="color:#888;"><strong>Research engineering &amp; scientific communication.</strong> Contributed to the <a href="https://www.ai4bread.com/" target="_blank" rel="noopener">AI4Bread Lab website</a> build and content organization; supported research and collaborative work around AI for agriculture and livelihood-oriented applications.</span>
       </div>
   </div>
 
@@ -96,7 +97,7 @@ Experience
           <strong>South China University of Technology</strong><br>
           <em>2024.09 - Present</em><br>
           M.Sc. Candidate<br>
-          <span style="color:#888;">National Scholarship recipient. Multiple top-tier programming-contest awards (ICPC, CCPC, CCCC).</span>
+          <span style="color:#888;"><strong>LLMs, retrieval &amp; agentic reasoning.</strong> Research spanning decoding-free ranking, memory-organized RAG, multimodal agents and document understanding, with publications at SIGIR, AAAI and ACM MM and an accepted EMNLP paper. National Scholarship recipient and programming-contest medalist (ICPC, CCPC, CCCC).</span>
       </div>
   </div>
 </div>
@@ -156,4 +157,5 @@ Talks
 <p class="publication-source">Academic milestones and moments beyond the lab. Select a photo to view the full image.</p>
 <section class="moment-group"><h3>SIGIR 2026 · Melbourne</h3><p>Representing the WeChat team on the SIGIR main stage, followed by moments from the Melbourne trip.</p><div class="moment-grid"><figure><a href="/images/moments/sigir-oral.jpg" target="_blank" rel="noopener"><img src="/images/moments/sigir-oral.jpg" alt="WeSEAL Oral presentation · SIGIR 2026 main stage" loading="lazy" decoding="async"></a><figcaption>WeSEAL Oral presentation · SIGIR 2026 main stage</figcaption></figure><figure><a href="/images/moments/melbourne-market.jpg" target="_blank" rel="noopener"><img src="/images/moments/melbourne-market.jpg" alt="Melbourne trip · evening market" loading="lazy" decoding="async"></a><figcaption>Melbourne trip · evening market</figcaption></figure><figure><a href="/images/moments/melbourne-wildlife.jpg" target="_blank" rel="noopener"><img src="/images/moments/melbourne-wildlife.jpg" alt="Melbourne trip · Australian wildlife" loading="lazy" decoding="async"></a><figcaption>Melbourne trip · Australian wildlife</figcaption></figure></div></section>
 <section class="moment-group"><h3>AAAI 2026 · Singapore</h3><p>ComoRAG Poster presentation at AAAI 2026, alongside memories of local food and Jewel Changi Airport from the Singapore trip.</p><div class="moment-grid"><figure><a href="/images/moments/aaai-poster.jpg" target="_blank" rel="noopener"><img src="/images/moments/aaai-poster.jpg" alt="ComoRAG Poster presentation · AAAI 2026" loading="lazy" decoding="async"></a><figcaption>ComoRAG Poster presentation · AAAI 2026</figcaption></figure><figure><a href="/images/moments/aaai-singapore-food.jpg" target="_blank" rel="noopener"><img src="/images/moments/aaai-singapore-food.jpg" alt="Singapore trip · Hokkien mee" loading="lazy" decoding="async"></a><figcaption>Singapore trip · Hokkien mee</figcaption></figure><figure><a href="/images/moments/aaai-singapore-jewel.jpg" target="_blank" rel="noopener"><img src="/images/moments/aaai-singapore-jewel.jpg" alt="Singapore trip · Jewel Changi Rain Vortex" loading="lazy" decoding="async"></a><figcaption>Singapore trip · Jewel Changi Rain Vortex</figcaption></figure></div></section>
+<section class="moment-group"><h3>ACM MM 2025 · Dublin, Ireland</h3><p>Attending ACM Multimedia 2025 in Dublin: conference conversations and memories from the Ireland trip.</p><div class="moment-grid"><figure><a href="/images/moments/acmmm-dublin-conference.jpg" target="_blank" rel="noopener"><img src="/images/moments/acmmm-dublin-conference.jpg" alt="ACM MM 2025 · conference gathering in Dublin" loading="lazy" decoding="async"></a><figcaption>ACM MM 2025 · conference gathering in Dublin</figcaption></figure><figure><a href="/images/moments/ireland-dublin-autumn.jpg" target="_blank" rel="noopener"><img src="/images/moments/ireland-dublin-autumn.jpg" alt="Ireland trip · an autumn afternoon in Dublin" loading="lazy" decoding="async"></a><figcaption>Ireland trip · an autumn afternoon in Dublin</figcaption></figure><figure><a href="/images/moments/ireland-coast.jpg" target="_blank" rel="noopener"><img src="/images/moments/ireland-coast.jpg" alt="Ireland trip · coastal landscape" loading="lazy" decoding="async"></a><figcaption>Ireland trip · coastal landscape</figcaption></figure></div></section>
 <section class="moment-group"><h3>Tencent Qingyun · Starlit Tech Gala</h3><p>Memories from the Tencent Qingyun closed-door evening event.</p><div class="moment-grid"><figure><a href="/images/moments/qingyun-night.jpg" target="_blank" rel="noopener"><img src="/images/moments/qingyun-night.jpg" alt="Starlit Tech Gala · city lights" loading="lazy" decoding="async"></a><figcaption>Starlit Tech Gala · city lights</figcaption></figure><figure><a href="/images/moments/qingyun-penguin.jpg" target="_blank" rel="noopener"><img src="/images/moments/qingyun-penguin.jpg" alt="Tencent penguin · evening venue" loading="lazy" decoding="async"></a><figcaption>Tencent penguin · evening venue</figcaption></figure><figure><a href="/images/moments/qingyun-gathering.jpg" target="_blank" rel="noopener"><img src="/images/moments/qingyun-gathering.jpg" alt="Tencent Qingyun · gathering and conversations" loading="lazy" decoding="async"></a><figcaption>Tencent Qingyun · gathering and conversations</figcaption></figure></div></section>

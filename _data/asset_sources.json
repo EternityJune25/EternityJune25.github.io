@@ -12,5 +12,17 @@
   },
   "images/moments/aaai-singapore-jewel.jpg": {
     "source": "Author-supplied IMG_0323.JPG"
+  },
+  "images/moments/acmmm-dublin-conference.jpg": {
+    "source": "Author-supplied 88051791213487_.pic_hd.jpg",
+    "caption": "ACM MM 2025 · conference gathering in Dublin"
+  },
+  "images/moments/ireland-dublin-autumn.jpg": {
+    "source": "Author-supplied 88131791213638_.pic_hd.jpg",
+    "caption": "Ireland trip · an autumn afternoon in Dublin"
+  },
+  "images/moments/ireland-coast.jpg": {
+    "source": "Author-supplied 88171791213645_.pic_hd.jpg",
+    "caption": "Ireland trip · coastal landscape"
   }
 }
